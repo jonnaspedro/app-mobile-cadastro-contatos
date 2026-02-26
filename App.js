@@ -22,7 +22,6 @@ export default function App() {
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Login">
 
-        {/* LOGIN */}
         <Stack.Screen name="Login" options={{ headerShown: false }}>
           {props => (
             <LoginScreen 
@@ -32,7 +31,6 @@ export default function App() {
           )}
         </Stack.Screen>
 
-        {/* CADASTRO USUÁRIO */}
         <Stack.Screen name="CadastroUsuario">
           {props => (
             <CadastroUsuarioScreen 
@@ -43,7 +41,6 @@ export default function App() {
           )}
         </Stack.Screen>
 
-        {/* LISTA CONTATOS */}
         <Stack.Screen name="ListaContatos">
           {props => (
             <ListaContatosScreen 
@@ -54,7 +51,6 @@ export default function App() {
           )}
         </Stack.Screen>
 
-        {/* CADASTRO CONTATO */}
         <Stack.Screen name="CadastroContato">
           {props => (
             <CadastroContatoScreen 
@@ -65,7 +61,6 @@ export default function App() {
           )}
         </Stack.Screen>
 
-        {/* EDITAR CONTATO */}
         <Stack.Screen name="EditarContato">
           {props => (
             <EditarContatoScreen 
@@ -76,7 +71,6 @@ export default function App() {
           )}
         </Stack.Screen>
 
-        {/* ESQUECEU SENHA */}
         <Stack.Screen name="EsqueceuSenha">
           {props => (
             <EsqueceuSenhaScreen 
