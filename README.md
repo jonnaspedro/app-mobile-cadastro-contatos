@@ -21,3 +21,5 @@ Praticar conceitos de desenvolvimento mobile e criação de interfaces.
 - npm install @react-navigation/native-stack
 - npm install @react-navigation/native-stack
 - expo install @expo/vector-icons
+- npm install --save react-native-screens react-native-safe-area-context
+- npx expo start --tunnel
