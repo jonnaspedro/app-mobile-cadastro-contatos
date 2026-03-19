@@ -24,3 +24,4 @@ Praticar conceitos de desenvolvimento mobile e criação de interfaces.
 - expo install @expo/vector-icons
 - npm install --save react-native-screens react-native-safe-area-context
 - npx expo start --tunnel
+- npm install axios
